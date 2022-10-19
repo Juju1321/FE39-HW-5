@@ -1,0 +1,122 @@
+.footer {
+   background: #000000;
+   padding: 35px 0px 27px 0px;
+
+   .footer-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .footer__social {
+         margin-bottom: 28px;
+
+         a {
+            text-decoration: none;
+
+            margin-right: 30px;
+
+            svg {
+               width: 53.2px;
+               height: 53.2px;
+            }
+
+            svg>path:hover {
+               fill: #EC7979;
+               transition: all .5s ease 0s;
+
+               cursor: pointer;
+            }
+         }
+
+         a:last-child {
+            margin-right: 0px;
+         }
+      }
+
+      .footer__text {
+         font-family: 'Raleway-Regular';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 21px;
+
+         color: rgba(255, 255, 255, 0.5);
+      }
+   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   .footer {
+      .footer-wrapper {
+         .footer__social {
+            a {
+               margin-right: 20px;
+
+               svg {
+                  width: 45px;
+                  height: 45px;
+               }
+            }
+         }
+
+         .footer__text {
+            font-size: 14px;
+            line-height: 16px;
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+   .footer {
+      padding: 35px 0px 45px 0px;
+
+      .footer-wrapper {
+         .footer__social {
+            margin-bottom: 42px;
+
+            a {
+               margin-right: 16px;
+
+               svg {
+                  width: 26px;
+                  height: 26px;
+               }
+            }
+         }
+
+         .footer__text {
+            font-size: 14px;
+            line-height: 16px;
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 331px) {
+   .footer {
+      .footer-wrapper {
+         .footer__social {
+            margin-bottom: 42px;
+
+            display: flex;
+            align-items: center;
+
+            a {
+               margin-right: 16px;
+
+               svg {
+                  width: 26px;
+                  height: 26px;
+               }
+            }
+         }
+
+         .footer__text {
+            font-size: 14px;
+            line-height: 16px;
+         }
+      }
+   }
+}
