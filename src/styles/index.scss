@@ -1,0 +1,22 @@
+@import url("/src/styles/fonts.scss");
+@import url("/src/styles/header.scss");
+@import url("/src/styles/sections.scss");
+@import url("/src/styles/footer.scss");
+
+
+html {
+   scroll-behavior: smooth; 
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+
